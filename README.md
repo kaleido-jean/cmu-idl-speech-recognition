@@ -52,7 +52,7 @@ This project is implemented as a notebook/script style workflow:
 ### 2) Context Window Features
 For each index `ind`, the sample is:
 - `frames = mfcc[ind : ind + 2*context + 1]`  → shape \((2C+1, 28)\)
-- label is the phoneme at `ind`
+- label is the phoneme of the center frame
 
 Model input is flattened to:
 - `INPUT_SIZE = (2*context + 1) * 28`
