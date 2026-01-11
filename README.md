@@ -3,7 +3,9 @@
 
 A compact speech DL project that performs **frame-level phoneme classification** using **MFCC features + contextual windowing**, trained in **PyTorch** with optional **SpecAugment (time/frequency masking)** and experiment tracking via **Weights & Biases**.
 
-
+<p align="center">
+  <img src="overview.png" alt="overview" width="800">
+</p>
 
 ---
 
