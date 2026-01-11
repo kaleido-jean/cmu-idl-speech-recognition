@@ -76,7 +76,7 @@ Applied in the training `collate_fn` with probability:
 
 ---
 
-## Configuration
+## Tunables
 
 | Hyperparameters | Values |
 |---|---|
